@@ -1,0 +1,11 @@
+My name is Geoffry.
+I'm currently learning about cloud computing, AI, and DevOps.
+
+My career goal is to become a DevOps engineer.
+I'm especially interested in Machine learning.
+
+I have experience with Vue, Python, Javascript, Typescript.
+I'm currently building projects on NextWork to grow my hands-on skills.
+
+For fun, I enjoy Playing one piece.
+A fun fact about me is I can lick my elbow.
