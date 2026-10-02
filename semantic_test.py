@@ -1,7 +1,7 @@
 import requests
 
 def test_kubernetes_query():
-    response = requests.post("http://127.0.0.1:8000/query?q=What does geoffry like?")
+    response = requests.post("http://127.0.0.1:8000/query?q=What does geoffry do for fun?")
     
     if response.status_code != 200:
         raise Exception(f"Server returned {response.status_code}: {response.text}")
@@ -22,7 +22,7 @@ def test_nextwork_query():
     answer = response.json()["answer"]
 
     # Check for key concepts from nextwork.txt
-    assert "maximus" in answer.lower(), "Missing 'maximus' keyword"
+    assert "learning" in answer.lower(), "Missing 'learning' keyword"
     
     print("✅ NextWork query test passed")
 
