@@ -1,7 +1,7 @@
 import chromadb
 import os
 
-client = chromadb.PersistentClient(path="./choma_db")
+client = chromadb.PersistentClient(path="./chroma_db")
 collection = client.get_or_create_collection("docs")
 
 # Clear existing documents (if any)
